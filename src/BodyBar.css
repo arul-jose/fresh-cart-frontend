@@ -1,0 +1,27 @@
+.body{
+    background-color: rgb(218, 207, 186);
+    height: 900px;
+    width: 80%;
+    padding-top: 20px;
+    float: right;
+
+    
+}
+
+.item1{
+    background-color: whitesmoke;
+    height: 200px;
+    width: 20%;
+    float: left;
+    margin: 22px;
+    
+}
+
+.longbar{
+    background-color: whitesmoke;
+    height: 130px;
+    width: 89%;
+    float: left;
+    margin: 22px;
+    
+}
