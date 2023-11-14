@@ -12,6 +12,7 @@ export default function Product(props) {
                     <h3><span>{x.type}</span></h3>
                     <h4><span>Rs.{x.price}</span></h4>
                     <h4><span>Rating:{x.rating}</span></h4>
+                    <h4><span>{x.filename}</span></h4>
                     <StarRatings
                         rating={x.rating}
                         starRatedColor="yellow"

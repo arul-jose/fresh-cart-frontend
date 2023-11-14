@@ -63,6 +63,7 @@ function App() {
   console.log("SELECTEDPRODUCT", selectedProduct);
   return (
     <div className="App">
+      <img src="gocart.jpg"></img>
       <NavBar inputValue={searchKey} onInputChange={onInputChange} buttonClick={buttonMethod}/>
       <SideBaar />
       {selectedProduct.hasOwnProperty("title") ?
